@@ -195,7 +195,6 @@ body {
 }
 
 .logo-footer {
-  display: f;
   margin-right: 0;
 }
 
@@ -277,7 +276,7 @@ body {
 }
 input.subscribe-button{
   background-color: var(--prime-color);
-  color: ffffff;
+  color: #ffffff;
 }
 .footer-form-input{
   outline: none;
@@ -726,7 +725,6 @@ background-color: var(--second-color);
 }
 .portfolio-li {
   display: flex;
-  flex-basis: calc(100% / 3-24px);
   margin: 24px 12px;
 }
 .portfolio-li:hover {
@@ -892,7 +890,7 @@ screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-basis: calc(100% / 2-24px);
+    flex-basis: calc(100% / 2 - 24px);
   }
   .customers-icons{
     display: flex;
@@ -1196,9 +1194,7 @@ screen and (min-width: 1200px) {
   .customers-icons:first-child{
     margin-left: 0;
   }
-  .customers-icons:nth-child(n-1){
-    margin-right: 16;
-  }
+  
   .customers-icons{
     margin-bottom: 0;
   }
