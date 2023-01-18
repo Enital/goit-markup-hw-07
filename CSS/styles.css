@@ -725,7 +725,7 @@ background-color: var(--second-color);
 }
 .portfolio-li {
   display: flex;
-  margin: 24px 12px;
+  /* margin: 24px 12px; */
 }
 .portfolio-li:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
